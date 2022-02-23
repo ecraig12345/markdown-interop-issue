@@ -6,11 +6,13 @@
     "skipLibCheck": false, // default
 
     // other options as desired
+    "outDir": "lib",
     "target": "es2016",
     "module": "esnext",
     "moduleResolution": "node",
     "declaration": true,
-    "jsx": "react"
+    "jsx": "react",
+    "types": ["jest"]
   },
-  "files": ["index.tsx"]
+  "include": ["src"]
 }

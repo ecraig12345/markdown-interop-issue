@@ -1,6 +1,5 @@
 .DS_Store
 *.log
-index.js
-index.d.ts
+lib
 node_modules
 package-lock.json
