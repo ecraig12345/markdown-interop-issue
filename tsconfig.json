@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // these are the important options for the repro
+    "esModuleInterop": false, // default
+    "allowSyntheticDefaultImports": false, // implied by esModuleInterop: false
+    "skipLibCheck": false, // default
+
+    // other options as desired
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "jsx": "react"
+  },
+  "files": ["index.tsx"]
+}

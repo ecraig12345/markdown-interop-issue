@@ -1,0 +1,20 @@
+{
+  "name": "markdown-interop-issue",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "typescript": "4.5.5"
+  },
+  "dependencies": {
+    "markdown-to-jsx": "^7.1.6",
+    "react": "^17.0.2"
+  }
+}
